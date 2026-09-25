@@ -4,13 +4,13 @@ story = """Jordan is walking home from school when he notices something shining 
 
 He crouches down to get a closer look.
 
-Stuck between the grate bars is a diamond unlike anything he's ever seen.
+Stuck between the drain's bars is the coolest diamond he's ever seen. 
 
-It seems to pulse faintly, almost like it's breathing.
+It seems to pulse very softly, like it's breathing.
 
-Jordan reaches for his phone to look it up, but there's no signal here.
+Jordan reaches for his phone to look it up, but he has no signal.
 
-He has two options.
+Now he has two options.
 
 A : Reach in and grab the diamond himself.
 OR
@@ -22,15 +22,15 @@ print(story)
 user_choice = input().lower()
 
 if user_choice == "a":
-    story = """Jordan pries the grate loose and pulls the diamond free.
+    story = """Jordan pulls the grate loose and pulls out the diamond.
 
-The moment it touches his palm, it gets warmer.
+The second it touches his hand, it gets warmer. 
 
-A faint humming fills the air, and the edges of his vision seem to sharpen.
+A humming sound fills the air, and his vision sharpens. 
 
-Something has changed, though he can't quite say what it is.
+Something has changed, though he can't quite say exactly what it is.
 
-A voice, quiet and unplaceable, seems to whisper from somewhere close by:
+A voice, coming from seemingly nowhere, whispers something gently:
 
 "You weren't supposed to find that yet."
 
@@ -45,11 +45,11 @@ B : Take the diamond and run.
     if user_choice == "a":
         story = """The voice chuckles, low and amused.
 
-"I'm the one who's been guarding that stone for three hundred years. Congratulations, you're my replacement."
+"I'm the one who's been guarding that diamond for three hundred years. Congratulations, you're next in line."
 
-Jordan's stomach drops.
+Jordan starts sweating bullets. 
 
-"There are rules," the voice continues. "The diamond can grant one wish. But it also needs a keeper. Forever."
+"There are rules," the voice continues. "But the diamond can grant one wish, but it also needs a keeper. Forever."
 
 A : Make the wish anyway.
 OR
@@ -60,13 +60,13 @@ B : Refuse and try to put the diamond back.
         user_choice = input().lower()
 
         if user_choice == "a":
-            story = """Jordan closes his eyes and wishes for his family to never have to worry about money again.
+            story = """Jordan closes his eyes and wishes that his family never has to worry about money again.
 
-The diamond flares white-hot, then goes cold and dull in his hand.
+The diamond turns white-hot for a second, then goes cold and dull in his hand.
 
-The wish is granted, but Jordan feels the weight settle onto his shoulders.
+The wish is granted, but Jordan feels his shoulders get heavy
 
-He is the diamond's keeper now, whether he likes it or not.
+He is the diamond's keeper now, even though he doesn't want to be.
 
 Some nights, he swears he can hear the next person's footsteps approaching the storm drain.
 
@@ -82,22 +82,22 @@ The voice sighs, almost sadly.
 
 "Smart. Most people don't say no."
 
-Jordan walks home with nothing but a strange story no one will believe.
+Jordan walks home with nothing but a strange story that no one is going to believe.
 
 THE END
 """
             print(story)
 
     else:
-        story = """Jordan shoves the diamond into his pocket and sprints the rest of the way home.
+        story = """Jordan puts the diamond in his pocket and sprints the rest of the way home.
 
 By the time he gets to his room, the humming has stopped completely.
 
-He sets it on his desk and stares at it for a long time.
+He lays it on his desk and just stares at it for a really long time.
 
 It looks like an ordinary, if very large, diamond now.
 
-The next morning, there's a note taped to his window that wasn't there before.
+The next morning, there's a note on his window that wasn't there before.
 
 It reads: FOUND YOU.
 
@@ -118,7 +118,7 @@ In its place is a small folded piece of paper.
 
 It simply says: THANK YOU FOR RETURNING IT.
 
-Jordan never does figure out how it got back to wherever it came from.
+Jordan never figures out how it got back to wherever it came from.
 
 THE END
 """
@@ -128,26 +128,28 @@ THE END
 
 Weeks pass and nothing happens, so he almost forgets about it.
 
-Then one afternoon, digging through old clothes, he opens the box to find it's completely empty.
+Then one afternoon, while he's digging through old clothes, he opens the box and sees it's empty.
 
-No note, no explanation, just an empty box where a diamond used to be.
+No note, no explanation, just an empty box where the diamond used to be.
 
 THE END
 """
             print(story)
 
 else:
-    story = """Jordan decides not to risk it and heads straight to his friend Maya's house instead.
+    story = """Jordan decides not to risk it and heads straight to his friend Jamal's house instead.
 
-Maya, who reads too many mystery novels for her own good, is immediately thrilled.
+Jamal, who reads too many mystery novels for his own good, is immediately thrilled.
 
-"A glowing diamond in a storm drain? Jordan, this is the best thing that's ever happened to you."
+"A glowing diamond in a storm drain? Jordan, this is the best thing that's ever happened to us."
 
-Together they walk back, flashlights in hand.
+"Best thing that's ever happened to me, bro."
+
+Together they walk back, with flashlights in their hands.
 
 The diamond is exactly where he left it, still pulsing faintly in the dark.
 
-A : Let Maya be the one to grab it.
+A : Let Jamal be the one to grab it.
 OR
 B : Grab it together at the same time.
 """
@@ -156,13 +158,13 @@ B : Grab it together at the same time.
     user_choice = input().lower()
 
     if user_choice == "a":
-        story = """Maya reaches in and lifts the diamond out carefully, like it might bite.
+        story = """Jamal reaches in and lifts the diamond out carefully.
 
-Nothing dramatic happens. No glowing, no voices, just a very heavy, very sparkly rock.
+Nothing dramatic happens. No glowing, no voices, just a very heavy and sparkly rock.
 
-"Well," Maya says, turning it over in her hands, "maybe it's just a diamond."
+"Well," Jamal says, turning it over in his hands, "maybe it's just a diamond."
 
-They take it to a jeweler the next day, half expecting to be laughed out of the shop.
+They take it to a jeweler the next day, not expecting to be laughed out of the shop.
 
 A : Sell the diamond and split the money.
 OR
@@ -177,7 +179,7 @@ B : Donate it to a museum instead.
 
 It turns out to be one of the largest natural diamonds ever found in the region.
 
-Jordan and Maya split the money and, true to their word, remain best friends for life.
+Jordan and Jamal split the money and, true to their word, remain best friends for life.
 
 THE END
 """
@@ -185,7 +187,7 @@ THE END
         else:
             story = """The local museum is stunned by the donation and puts the diamond on permanent display.
 
-A small plaque reads: Discovered by Jordan and Maya, age 16.
+A small plaque reads: Discovered by Jordan and Jamal, age 16.
 
 Years later, kids on school trips still stop to stare at it.
 
@@ -200,7 +202,7 @@ The second their hands touch it together, the humming returns, louder than befor
 
 The storm drain grate begins to glow faintly around the edges.
 
-For a split second, Jordan swears he can see straight through solid concrete, like the whole world has gone slightly transparent.
+For a split second, Jordan swears he can see straight through solid concrete, like the whole world has become transparent.
 
 A : Hold on and see what happens.
 OR
@@ -215,7 +217,7 @@ B : Let go immediately.
 
 The diamond is warm but otherwise unchanged.
 
-Jordan and Maya look at each other, both certain something important almost happened.
+Jordan and Jamal look at each other, both certain something important almost happened.
 
 They never do find out what it was, but they never stop wondering either.
 
@@ -225,9 +227,9 @@ THE END
         else:
             story = """They both let go at once, and the diamond drops back into the drain with a hollow clink.
 
-The glow vanishes instantly, like it was never there at all.
+The glow instantly goes away, like it was never there at all.
 
-Maya laughs nervously. "Yeah, let's just go home."
+Jamal laughs nervously. "Yeah, let's just go home."
 
 Some mysteries, they decide, are better left in storm drains.
 
